@@ -17,8 +17,10 @@ TP_PATH = pathlib.Path('docs', 'third-party')
 
 TABLE_KEYS = (('Name', 'URL'), 'Version', 'License', 'Author', 'Description')
 HEADER_LABELS = ('Name', 'Version', 'License', 'Author', 'Description (from packaging data)')
+
+fallbacks, FALLBACK_URLS, FALLBACK_AUTHORS, FALLBACK_DESCRIPTIONS = {}, {}, {}, {}
+
 THIRD_PARTY_FALLBACKS = 'third-party-fallbacks.yml'
-FALLBACK_URLS, FALLBACK_AUTHORS, FALLBACK_DESCRIPTIONS = {}, {}, {}
 TPF_PATH = pathlib.Path(THIRD_PARTY_FALLBACKS)
 if TPF_PATH.is_file():
     with open(TPF_PATH, 'rt', encoding=ENCODING) as handle:
@@ -31,6 +33,18 @@ if fallbacks:
         FALLBACK_AUTHORS = {**FALLBACK_AUTHORS, **fallbacks['authors']}
     if fallbacks.get('descriptions', {}):
         FALLBACK_DESCRIPTIONS = {**FALLBACK_DESCRIPTIONS, **fallbacks['descriptions']}
+
+indirect_names, INDIRECT_NAMES = [], []
+
+INDIRECT_PACKAGE_NAMES = 'indirect-package-names.yml'
+IPN_PATH = pathlib.Path(INDIRECT_PACKAGE_NAMES)
+if IPN_PATH.is_file():
+    with open(IPN_PATH, 'rt', encoding=ENCODING) as handle:
+        indirect_names = yaml.safe_load(handle)
+
+if indirect_names:
+    if indirect_names.get('packages', []):
+        INDIRECT_NAMES = sorted(set(INDIRECT_NAMES.extend(indirect_names)))
 
 TARGET = """\
 __version__ = '$version$+parent.$revision$'\
@@ -65,14 +79,8 @@ def _generate_dependency_information() -> None:
     if not noise.startswith('created path: ') or not noise.endswith('direct-dependency-licenses.json'):
         raise RuntimeError(noise)
 
-    indirect_names = [  # TODO(sthagen) these indirect deps may diverge ...
-        'attrs',
-        'pyrsistent',
-        'typing-extensions',
-        'click',
-    ]
     full_vector = [
-        'pip-licenses', '--format', 'json', '-p', *direct_names, *indirect_names,
+        'pip-licenses', '--format', 'json', '-p', *direct_names, *INDIRECT_NAMES,
         '--with-authors', '--with-description', '--with-urls', '--with-license-file', '--with-notice-file',
         '--with-system',  # HACK A DID ACK for setuptools
         '--output-file', str(TP_PATH / 'all-dependency-licenses.json')]
