@@ -8,6 +8,8 @@ import subprocess  # nosec
 import sys
 from typing import List, Tuple
 
+import yaml
+
 __all__ = ['dependency_tree_console_text', 'direct_dependencies_table', 'indirect_dependencies_table']
 
 ENCODING = 'utf-8'
@@ -15,18 +17,21 @@ TP_PATH = pathlib.Path('docs', 'third-party')
 
 TABLE_KEYS = (('Name', 'URL'), 'Version', 'License', 'Author', 'Description')
 HEADER_LABELS = ('Name', 'Version', 'License', 'Author', 'Description (from packaging data)')
-FALLBACK_URLS = {
-    'typing-extensions': 'https://github.com/python/typing/blob/master/typing_extensions/README.rst',
-    'rtoml': 'https://github.com/samuelcolvin/rtoml/blob/main/README.md',
-}
-FALLBACK_AUTHORS = {
-    'lazr.uri': '"LAZR Developers" team',
-    'typing-extensions': 'The Python Typing Team',
-    'msgspec': 'Jim Crist-Harif',
-}
-FALLBACK_DESCRIPTIONS = {
-    'rtoml': 'A better TOML library for python implemented in rust.',
-}
+THIRD_PARTY_FALLBACKS = 'third-party-fallbacks.yml'
+FALLBACK_URLS, FALLBACK_AUTHORS, FALLBACK_DESCRIPTIONS = {}, {}, {}
+TPF_PATH = pathlib.Path(THIRD_PARTY_FALLBACKS)
+if TPF_PATH.is_file():
+    with open(TPF_PATH, 'rt', encoding=ENCODING) as handle:
+        fallbacks = yaml.safe_load(handle)
+
+if fallbacks:
+    if fallbacks.get('urls', {}):
+        FALLBACK_URLS = {**FALLBACK_URLS, **fallbacks['urls']}
+    if fallbacks.get('authorss', {}):
+        FALLBACK_AUTHORS = {**FALLBACK_AUTHORS, **fallbacks['authors']}
+    if fallbacks.get('descriptions', {}):
+        FALLBACK_DESCRIPTIONS = {**FALLBACK_DESCRIPTIONS, **fallbacks['descriptions']}
+
 TARGET = """\
 __version__ = '$version$+parent.$revision$'\
 """
