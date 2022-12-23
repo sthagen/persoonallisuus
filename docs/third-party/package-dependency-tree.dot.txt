@@ -1,0 +1,6 @@
+digraph {
+	rtoml [label="rtoml\n0.9.0"]
+	pyyaml [label="PyYAML\n6.0"]
+	msgspec [label="msgspec\n0.11.0"]
+	lxml [label="lxml\n4.9.2"]
+}
