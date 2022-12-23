@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([994cb022 ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:994cb022fac06b3eb4c70de21cef291f306392decce47f8b375caad6430548ae")).
-<!--[[[end]]] (checksum: 242edbfca30bea006954da0fff9e6a8b)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([c57a28f9 ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:c57a28f9c7493a7431e0f128d462784dbd4094c3822cc5a5bd460ba49bd80b98")).
+<!--[[[end]]] (checksum: c4e49be2de2c0a38400e1185b532918b)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -14,9 +14,9 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 |:-------------------------------------------------------------------|:---------------------------------------------------|:------------|:---------------------------------|:-------------------------------------------------------------------------------------------------|
 | [PyYAML](https://pyyaml.org/)                                      | [6.0](https://pypi.org/project/PyYAML/6.0/)        | MIT License | Kirill Simonov                   | YAML parser and emitter for Python                                                               |
 | [lxml](https://lxml.de/)                                           | [4.9.2](https://pypi.org/project/lxml/4.9.2/)      | BSD License | lxml dev team                    | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API. |
-| [msgspec](https://jcristharif.com/msgspec/)                        | [0.11.0](https://pypi.org/project/msgspec/0.11.0/) | BSD License | Jim Crist-Harif                  | A fast and friendly JSON/MessagePack library, with optional schema validation                    |
+| [msgspec](https://jcristharif.com/msgspec/)                        | [0.11.0](https://pypi.org/project/msgspec/0.11.0/) | BSD License | UNKNOWN                          | A fast and friendly JSON/MessagePack library, with optional schema validation                    |
 | [rtoml](https://github.com/samuelcolvin/rtoml/blob/main/README.md) | [0.9.0](https://pypi.org/project/rtoml/0.9.0/)     | MIT License | Samuel Colvin <s@muelcolvin.com> | A better TOML library for python implemented in rust.                                            |
-<!--[[[end]]] (checksum: f67bfcfbbd1c8970f8792874bb1677be)-->
+<!--[[[end]]] (checksum: 1e49ed1cb24316a9e5722bfa3bc020ff)-->
 
 ### Indirect Dependencies
 
