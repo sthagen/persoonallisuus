@@ -27,7 +27,7 @@ if TPF_PATH.is_file():
 if fallbacks:
     if fallbacks.get('urls', {}):
         FALLBACK_URLS = {**FALLBACK_URLS, **fallbacks['urls']}
-    if fallbacks.get('authorss', {}):
+    if fallbacks.get('authors', {}):
         FALLBACK_AUTHORS = {**FALLBACK_AUTHORS, **fallbacks['authors']}
     if fallbacks.get('descriptions', {}):
         FALLBACK_DESCRIPTIONS = {**FALLBACK_DESCRIPTIONS, **fallbacks['descriptions']}
