@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([b38a2276 ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:b38a2276cdc3948fd204b59c11863363353a379911c433ad0e87016a7ccc7966")).
-<!--[[[end]]] (checksum: fec08e8013fe139dd5b86626e92d2453)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://github.com/sthagen/pilli/blob/default/sbom.json) with SHA256 checksum ([13922a2f ...](https://raw.githubusercontent.com/sthagen/pilli/default/sbom.json.sha256 "sha256:13922a2f57d052eb29f76af369281d589a3e7ab64095bbcbbe8fff8dec798f66")).
+<!--[[[end]]] (checksum: 99a195281120e90870846d78ad915c7c)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -21,12 +21,9 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name                                               | Version                                               | License     | Author            | Description (from packaging data)               |
-|:---------------------------------------------------|:------------------------------------------------------|:------------|:------------------|:------------------------------------------------|
-| [attrs](https://www.attrs.org/)                    | [22.2.0](https://pypi.org/project/attrs/22.2.0/)      | MIT License | Hynek Schlawack   | Classes Without Boilerplate                     |
-| [click](https://palletsprojects.com/p/click/)      | [8.1.3](https://pypi.org/project/click/8.1.3/)        | BSD License | Armin Ronacher    | Composable command line interface toolkit       |
-| [pyrsistent](https://github.com/tobgu/pyrsistent/) | [0.19.2](https://pypi.org/project/pyrsistent/0.19.2/) | MIT License | Tobias Gustafsson | Persistent/Functional/Immutable data structures |
-<!--[[[end]]] (checksum: 22645116ee18efb7104020003d445c8c)-->
+| Name | Version | License | Author | Description (from packaging data) |
+|:-----|:--------|:--------|:-------|:----------------------------------|
+<!--[[[end]]] (checksum: 8a87b89207db0be2864af66f9266660c)-->
 
 ## Dependency Tree(s)
 
