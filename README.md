@@ -14,7 +14,7 @@ Third party dependencies are documented in the folder [third-party](third-party/
 
 ## Documentation
 
-User and developer documentation of [persoonallisuus](https://codes.dilettant.life/docs/persoonallisuus/).
+User and developer [documentation of persoonallisuus](https://codes.dilettant.life/docs/persoonallisuus/).
 
 ## Bug Tracker
 
