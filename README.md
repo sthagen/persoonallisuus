@@ -4,7 +4,7 @@ Personality (Finnish: persoonallisuus) - who am I currently and how should I beh
 
 [License: MIT](https://git.sr.ht/~sthagen/persoonallisuus/tree/default/item/LICENSE)
 
-Third party dependencies are documented in the folder [third-party](third-party/README.md).
+Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
 [![downloads](https://pepy.tech/badge/persoonallisuus/month)](https://pepy.tech/project/persoonallisuus)
