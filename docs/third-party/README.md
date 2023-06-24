@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/persoonallisuus/blob/default/sbom.json) with SHA256 checksum ([94584db9 ...](https://git.sr.ht/~sthagen/persoonallisuus/blob/default/sbom.json.sha256 "sha256:94584db9b7aac7d9c719ac66404cd8e4c55550ae3583f9d56daeabb2da2d47ef")).
-<!--[[[end]]] (checksum: 1617bfce0997f27829b0a9711223b84d)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/persoonallisuus/blob/default/sbom/cdx.json) with SHA256 checksum ([0beb880e ...](https://git.sr.ht/~sthagen/persoonallisuus/blob/default/sbom/cdx.json.sha256 "sha256:0beb880e0d4c6303e6e098c556d1d50ddf807432246e7ba7a1808f960cf63632")).
+<!--[[[end]]] (checksum: e0dfaa3ce66b8fd4effe25d029a8c696)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -10,13 +10,13 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Direct Dependencies
 
 <!--[[[fill direct_dependencies_table()]]]-->
-| Name                                                               | Version                                            | License     | Author                           | Description (from packaging data)                                                                |
-|:-------------------------------------------------------------------|:---------------------------------------------------|:------------|:---------------------------------|:-------------------------------------------------------------------------------------------------|
-| [PyYAML](https://pyyaml.org/)                                      | [6.0](https://pypi.org/project/PyYAML/6.0/)        | MIT License | Kirill Simonov                   | YAML parser and emitter for Python                                                               |
-| [lxml](https://lxml.de/)                                           | [4.9.2](https://pypi.org/project/lxml/4.9.2/)      | BSD License | lxml dev team                    | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API. |
-| [msgspec](https://jcristharif.com/msgspec/)                        | [0.12.0](https://pypi.org/project/msgspec/0.12.0/) | BSD License | Jim Crist-Harif                  | A fast and friendly JSON/MessagePack library, with optional schema validation                    |
-| [rtoml](https://github.com/samuelcolvin/rtoml/blob/main/README.md) | [0.9.0](https://pypi.org/project/rtoml/0.9.0/)     | MIT License | Samuel Colvin <s@muelcolvin.com> | A better TOML library for python implemented in rust.                                            |
-<!--[[[end]]] (checksum: ca5f745ce3d3243635cede2e0dae66ed)-->
+| Name                                           | Version                                            | License     | Author                           | Description (from packaging data)                                                                        |
+|:-----------------------------------------------|:---------------------------------------------------|:------------|:---------------------------------|:---------------------------------------------------------------------------------------------------------|
+| [PyYAML](https://pyyaml.org/)                  | [6.0](https://pypi.org/project/PyYAML/6.0/)        | MIT License | Kirill Simonov                   | YAML parser and emitter for Python                                                                       |
+| [lxml](https://lxml.de/)                       | [4.9.2](https://pypi.org/project/lxml/4.9.2/)      | BSD License | lxml dev team                    | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.         |
+| [msgspec](https://jcristharif.com/msgspec/)    | [0.16.0](https://pypi.org/project/msgspec/0.16.0/) | BSD License | Jim Crist-Harif                  | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
+| [rtoml](https://github.com/samuelcolvin/rtoml) | [0.9.0](https://pypi.org/project/rtoml/0.9.0/)     | MIT License | Samuel Colvin <s@muelcolvin.com> | A better TOML library for python implemented in rust.                                                    |
+<!--[[[end]]] (checksum: a5615a539eb901b1c7e3cdfa7edfa529)-->
 
 ### Indirect Dependencies
 
@@ -40,8 +40,8 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
 lxml==4.9.2
-msgspec==0.12.0
+msgspec==0.16.0
 PyYAML==6.0
 rtoml==0.9.0
 ````
-<!--[[[end]]] (checksum: 3722b6d04b62374dde7655f6eb5c9896)-->
+<!--[[[end]]] (checksum: a5f8e2b5cc0fa8877894e8b848f90fe8)-->
