@@ -1,5 +1,4 @@
-# Change History
+# Changes
 
-## Source
-
-* Bootstrapping
+Source
+:    * Bootstrapping
