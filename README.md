@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/third-p
 [![wheel](https://img.shields.io/pypi/wheel/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/persoonallisuus.svg?style=flat)](https://git.sr.ht/~sthagen/persoonallisuus/log)
 
 ## Documentation
 
