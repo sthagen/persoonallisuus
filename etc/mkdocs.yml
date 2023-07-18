@@ -1,5 +1,7 @@
 site_name: Persoonallisuus
 site_description: "Personality (Finnish: persoonallisuus) - who am I currently and how should I behave?"
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'
