@@ -7,7 +7,7 @@ Personality (Finnish: persoonallisuus) - who am I currently and how should I beh
 Third party dependencies are documented in the folder [third-party](third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
-[![downloads](https://pepy.tech/badge/persoonallisuus/month)](https://pepy.tech/project/persoonallisuus)
+[![downloads](https://static.pepy.tech/badge/persoonallisuus/month)](https://pepy.tech/project/persoonallisuus)
 [![wheel](https://img.shields.io/pypi/wheel/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
