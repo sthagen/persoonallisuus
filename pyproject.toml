@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "persoonallisuus"
-version = "2022.12.23"
+version = "2023.10.29"
 description = "Personality (Finnish: persoonallisuus) - who am I currently and how should I behave?"
 readme = "README.md"
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]

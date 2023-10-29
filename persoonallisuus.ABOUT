@@ -1,13 +1,13 @@
 name: persoonallisuus
 description: Personality (Finnish: persoonallisuus) - who am I currently and how should I behave?
 license_spdx: MIT
-version: 2022.12.23
+version: 2023.10.29
 spec_version: 1.0
 home_url: https://git.sr.ht/~sthagen/persoonallisuus
 news_url: https://libraries.io/pypi/persoonallisuus/versions.atom
-date: 2022-12-23
+date: 2023-10-29
 about_resource: ./
-libraries_io_url: https://libraries.io/pypi/persoonallisuus?number=2022.12.23
+libraries_io_url: https://libraries.io/pypi/persoonallisuus?number=2023.10.29
 vcs_tool: git
 vcs_repository: https://git.sr.ht/~sthagen/persoonallisuus
 vcs_branch: default

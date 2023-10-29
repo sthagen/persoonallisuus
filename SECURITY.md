@@ -5,9 +5,9 @@
 Versions of persoonallisuus currently being supported with security updates.
 
 | Version(s)   | Supported |
-|:------------ |:--------- |
-| 2022.12.23   | yes       |
-| < 2022.12.23 | no        |
+|:-------------|:----------|
+| 2023.10.29   | yes       |
+| < 2023.10.29 | no        |
 
 ## Reporting a Vulnerability
 
