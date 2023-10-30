@@ -10,7 +10,7 @@ Personality (Finnish: persoonallisuus) - who am I currently and how should I beh
 [![Version](https://img.shields.io/pypi/v/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
 [![Downloads](https://static.pepy.tech/badge/persoonallisuus/month)](https://pepy.tech/project/persoonallisuus)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/persoonallisuus.svg?style=flat)](https://pypi.python.org/pypi/persoonallisuus/)
-[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/persoonallisuus.svg?style=flat)](https://git.sr.ht/~sthagen/persoonallisuus/log)
+[![Maintenance Status](docs/badges/downloads-per-month.svg)](https://git.sr.ht/~sthagen/persoonallisuus/log)
 
 ## Bug Tracker
 
