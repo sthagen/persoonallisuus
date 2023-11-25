@@ -1,25 +1,37 @@
 {
   "total": {
-    "commits": 875,
-    "first_committed_at": "2023-11-25T21:02:14+00:00",
-    "last_committed_at": "2022-12-23T11:33:15+00:00",
+    "commits": 879,
+    "first_committed_at": "2022-12-23T11:33:15+00:00",
+    "last_committed_at": "2023-11-25T22:13:24+00:00",
     "month_span_day_count": 337,
     "year_span": 0.9232876712328767,
-    "commits_per_year": 947,
-    "insertions_per_year": 15534.703264094956,
-    "deletions_per_year": 4565.207715133532,
-    "lines_per_year": 20099.910979228487,
-    "files_per_year": 1443.753709198813,
-    "insertions_count": 14343,
-    "deletions_count": 4215,
-    "lines_count": 18558,
-    "files_count": 1333,
-    "insertions_avg": 16.392,
-    "deletions_avg": 4.817142857142857,
-    "lines_avg": 21.209142857142858,
-    "files_avg": 1.5234285714285714
+    "commits_per_year": 952,
+    "insertions_per_year": 15544.451038575668,
+    "deletions_per_year": 4573.872403560831,
+    "lines_per_year": 20118.323442136498,
+    "files_per_year": 1447.0029673590504,
+    "insertions_count": 14352,
+    "deletions_count": 4223,
+    "lines_count": 18575,
+    "files_count": 1336,
+    "insertions_avg": 16.32764505119454,
+    "deletions_avg": 4.8043230944254836,
+    "lines_avg": 21.13196814562002,
+    "files_avg": 1.5199089874857792
   },
   "commit_stats": {
+    "2023-11-25T22:13:24+00:00": {
+      "insertions": 3,
+      "deletions": 2,
+      "lines": 5,
+      "files": 1
+    },
+    "2023-11-25T21:39:02+00:00": {
+      "insertions": 6,
+      "deletions": 6,
+      "lines": 12,
+      "files": 2
+    },
     "2023-11-25T21:02:14+00:00": {
       "insertions": 29,
       "deletions": 17,
@@ -7404,11 +7416,11 @@
       "files": 4
     },
     "2023-11-25": {
-      "commits": 5,
-      "insertions": 7503,
-      "deletions": 19,
-      "lines": 7522,
-      "files": 5
+      "commits": 7,
+      "insertions": 7512,
+      "deletions": 27,
+      "lines": 7539,
+      "files": 8
     }
   }
 }
