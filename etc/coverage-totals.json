@@ -1,7 +1,7 @@
 {
   "persoonallisuus": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:29:30.580130",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:27:11 +00:00",
     "branch_coverage": false,
     "show_contexts": true,
     "covered_lines": 0,
@@ -9,6 +9,20 @@
     "percent_covered": 0,
     "percent_covered_display": "0.00",
     "missing_lines": 2,
-    "excluded_lines": 0
+    "excluded_lines": 0,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 1,
+    "files": [
+      "persoonallisuus/__init__.py"
+    ],
+    "blake3": "aeb40db6a724ecc4d0f3ac4f8158def15252953b687d4d06b4ecc71049c32798",
+    "blake2": "fc7218dc72c0d135d2da760a5af872edf0c444edf0cdf8b1f8c1dfadf346df0e98de4486a80ef4e3b27fadb9648d2aada7cc8ff66e8d60a7b97276ce8aac59ab",
+    "sha512": "8d36f5e93278cfb66945ac58f209142fff42f45585d81805d5bba5d3a48d73ec6ec18a81461b77c9eef96c8447b67299f9399184afac2a2b65c0002a8eaa260e",
+    "sha384": "e0c7fd778205ffc331ead7157ad6687f3773570b3528d1f4398b54ab8084c29db1c4469c26c1b3a3956a9f91afc0537c",
+    "sha256": "78f3dd7d05ab71f8a86e8442da47c98da43653ea25106e3cc366a80c5bd4ad05",
+    "sha1": "46e4328eb949a998b1531d2bdea1e75f835034c4",
+    "md5": "700cf4b1cf6b7bec40afdbbbac31fa26",
+    "python_version": "3.10.12",
+    "entropy": 4.996316
   }
 }
