@@ -2,8 +2,8 @@
     {
         "key": "lxml",
         "package_name": "lxml",
-        "installed_version": "4.9.3",
-        "required_version": "4.9.3",
+        "installed_version": "4.9.4",
+        "required_version": "4.9.4",
         "dependencies": []
     },
     {
@@ -23,8 +23,8 @@
     {
         "key": "rtoml",
         "package_name": "rtoml",
-        "installed_version": "0.9.0",
-        "required_version": "0.9.0",
+        "installed_version": "0.10.0",
+        "required_version": "0.10.0",
         "dependencies": []
     }
 ]

@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/persoonallisuus/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([3f4683f7 ...](https://git.sr.ht/~sthagen/persoonallisuus/blob/default/etc/sbom/cdx.json.sha256 "sha256:3f4683f7c6dadd125daab38cefa4fb8f7f349454cde411aa0d48631a1ebf0097")).
-<!--[[[end]]] (checksum: 78234a6fb39c13ee8ba12136b32a22bb)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/persoonallisuus/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([abec30a8 ...](https://git.sr.ht/~sthagen/persoonallisuus/blob/default/etc/sbom/cdx.json.sha256 "sha256:abec30a8e9fa160fb3d3c822044509f17425da64e89cf098b730cc0533549fe2")).
+<!--[[[end]]] (checksum: ad6ec13659e0628de19eb7c832205278)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,10 +13,10 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                           | Version                                            | License     | Author                           | Description (from packaging data)                                                                        |
 |:-----------------------------------------------|:---------------------------------------------------|:------------|:---------------------------------|:---------------------------------------------------------------------------------------------------------|
 | [PyYAML](https://pyyaml.org/)                  | [6.0.1](https://pypi.org/project/PyYAML/6.0.1/)    | MIT License | Kirill Simonov                   | YAML parser and emitter for Python                                                                       |
-| [lxml](https://lxml.de/)                       | [4.9.3](https://pypi.org/project/lxml/4.9.3/)      | BSD License | lxml dev team                    | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.         |
+| [lxml](https://lxml.de/)                       | [4.9.4](https://pypi.org/project/lxml/4.9.4/)      | BSD License | lxml dev team                    | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.         |
 | [msgspec](https://jcristharif.com/msgspec/)    | [0.18.5](https://pypi.org/project/msgspec/0.18.5/) | BSD License | Jim Crist-Harif                  | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
-| [rtoml](https://github.com/samuelcolvin/rtoml) | [0.9.0](https://pypi.org/project/rtoml/0.9.0/)     | MIT License | Samuel Colvin <s@muelcolvin.com> | A better TOML library for python implemented in rust.                                                    |
-<!--[[[end]]] (checksum: db49c2b0c690af4cd343715917aeb025)-->
+| [rtoml](https://github.com/samuelcolvin/rtoml) | [0.10.0](https://pypi.org/project/rtoml/0.10.0/)   | MIT License | Samuel Colvin <s@muelcolvin.com> | A better TOML library for python implemented in rust.                                                    |
+<!--[[[end]]] (checksum: 488a122cf926a44c4874eb785b1d2fa9)-->
 
 ### Indirect Dependencies
 
@@ -39,9 +39,9 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-lxml==4.9.3
+lxml==4.9.4
 msgspec==0.18.5
 PyYAML==6.0.1
-rtoml==0.9.0
+rtoml==0.10.0
 ````
-<!--[[[end]]] (checksum: 3fc2c62537ad0867ab097409e905319d)-->
+<!--[[[end]]] (checksum: e5acbdcf6e8437565d539186b73d277f)-->
