@@ -1,5 +1,5 @@
 digraph {
-	lxml [label="lxml\n4.9.4"]
+	lxml [label="lxml\n5.0.0"]
 	msgspec [label="msgspec\n0.18.5"]
 	pyyaml [label="PyYAML\n6.0.1"]
 	rtoml [label="rtoml\n0.10.0"]
