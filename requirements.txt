@@ -1,4 +1,4 @@
 PyYAML==6.0.1
-lxml==4.9.4
+lxml==5.0.0
 msgspec==0.18.5
 rtoml==0.10.0
