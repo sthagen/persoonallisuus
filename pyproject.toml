@@ -7,6 +7,7 @@ name = "persoonallisuus"
 version = "2023.10.29"
 description = "Personality (Finnish: persoonallisuus) - who am I currently and how should I behave?"
 readme = "README.md"
+license = {file = "LICENSE"}
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 maintainers = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 classifiers = [
