@@ -1,25 +1,97 @@
 {
   "total": {
-    "commits": 3352,
+    "commits": 3365,
     "first_committed_at": "2022-12-23T11:33:15+00:00",
-    "last_committed_at": "2025-06-04T21:04:49+00:00",
-    "month_span_day_count": 894,
-    "year_span": 2.4493150684931506,
-    "commits_per_year": 1368,
-    "insertions_per_year": 9829.278523489933,
-    "deletions_per_year": 4940.564876957495,
-    "lines_per_year": 14769.843400447427,
-    "files_per_year": 1468.9821029082775,
-    "insertions_count": 24075,
-    "deletions_count": 12101,
-    "lines_count": 36176,
-    "files_count": 3598,
-    "insertions_avg": 7.18227923627685,
-    "deletions_avg": 3.6100835322195706,
-    "lines_avg": 10.79236276849642,
-    "files_avg": 1.0733890214797137
+    "last_committed_at": "2025-06-12T02:54:15+00:00",
+    "month_span_day_count": 901,
+    "year_span": 2.4684931506849317,
+    "commits_per_year": 1363,
+    "insertions_per_year": 9760.205327413983,
+    "deletions_per_year": 4909.472807991121,
+    "lines_per_year": 14669.678135405104,
+    "files_per_year": 1462.8357380688124,
+    "insertions_count": 24093,
+    "deletions_count": 12119,
+    "lines_count": 36212,
+    "files_count": 3611,
+    "insertions_avg": 7.159881129271917,
+    "deletions_avg": 3.60148588410104,
+    "lines_avg": 10.761367013372958,
+    "files_avg": 1.0731054977711738
   },
   "commit_stats": {
+    "2025-06-12T02:54:15+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-12T00:08:31+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-11T23:25:12+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-11T22:41:10+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-11T21:57:25+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-11T21:53:30+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-11T21:09:07+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-11T21:03:08+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-05T22:13:45+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-05T21:28:51+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-05T16:01:00+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-05T11:44:50+00:00": {
+      "insertions": 7,
+      "deletions": 7,
+      "lines": 14,
+      "files": 2
+    },
     "2025-06-04T21:04:49+00:00": {
       "insertions": 1,
       "deletions": 1,
@@ -21418,6 +21490,62 @@
       "deletions": 9,
       "lines": 23,
       "files": 4
+    },
+    "2025-06-05": {
+      "commits": 4,
+      "insertions": 10,
+      "deletions": 10,
+      "lines": 20,
+      "files": 5
+    },
+    "2025-06-06": {
+      "commits": 0,
+      "insertions": 0,
+      "deletions": 0,
+      "lines": 0,
+      "files": 0
+    },
+    "2025-06-07": {
+      "commits": 0,
+      "insertions": 0,
+      "deletions": 0,
+      "lines": 0,
+      "files": 0
+    },
+    "2025-06-08": {
+      "commits": 0,
+      "insertions": 0,
+      "deletions": 0,
+      "lines": 0,
+      "files": 0
+    },
+    "2025-06-09": {
+      "commits": 0,
+      "insertions": 0,
+      "deletions": 0,
+      "lines": 0,
+      "files": 0
+    },
+    "2025-06-10": {
+      "commits": 0,
+      "insertions": 0,
+      "deletions": 0,
+      "lines": 0,
+      "files": 0
+    },
+    "2025-06-11": {
+      "commits": 6,
+      "insertions": 6,
+      "deletions": 6,
+      "lines": 12,
+      "files": 6
+    },
+    "2025-06-12": {
+      "commits": 2,
+      "insertions": 2,
+      "deletions": 2,
+      "lines": 4,
+      "files": 2
     }
   }
 }
