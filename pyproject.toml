@@ -24,7 +24,7 @@ classifiers = [
 keywords = ["configuration", "developer-tools"]
 dependencies = [
     "PyYAML >= 6.0.3",
-    "lxml >= 6.0.3",
+    "lxml >= 6.1.0",
     "msgspec >= 0.20.0",
     "rtoml >= 0.13.0",
 ]
